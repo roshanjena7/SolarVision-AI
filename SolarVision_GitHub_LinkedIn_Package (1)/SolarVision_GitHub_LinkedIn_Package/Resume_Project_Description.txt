@@ -1,0 +1,5 @@
+SolarVision AI | MATLAB, Deep Learning, Computer Vision
+• Developed a solar PV thermal-image classification pipeline using MobileNetV2 transfer learning in MATLAB.
+• Addressed class imbalance through class-weighting and oversampling experiments; evaluated using confusion matrix, precision, recall, and F1-score.
+• Achieved 90.31% test accuracy (503/557) across seven supported classes; identified limited rare-class performance as a data-availability limitation.
+• Built an interactive MATLAB demo for image selection and prediction-confidence visualization.

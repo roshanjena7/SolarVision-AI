@@ -1,0 +1,22 @@
+🚀 Excited to share SolarVision AI — a solar PV thermal-image fault classification project built in MATLAB!
+
+For this project, I used transfer learning with MobileNetV2 to classify solar-panel thermal images into seven supported classes (1, 2, 3, 4, 6, 7, and 8).
+
+🔧 What I worked on:
+• Preparing a fixed train/validation/test split
+• Training a MobileNetV2-based image classifier
+• Investigating class imbalance through class weighting and oversampling
+• Evaluating the model using accuracy, precision, recall, F1-score, and a confusion matrix
+• Building a MATLAB demo that predicts a class and displays confidence for a selected image
+
+📊 Final test result:
+• Test accuracy: 90.31% (503/557 test images)
+• Macro F1-score: approximately 71.54%
+
+The results also showed an important challenge: rare classes are harder to classify reliably. Class 6 achieved 33.33% recall on just three test samples, so more data is needed before drawing strong conclusions. Class 5 was excluded from training because only two images were available.
+
+This project helped me understand that a high overall accuracy is not the whole story — class-wise evaluation and data balance matter.
+
+#MATLAB #DeepLearning #ComputerVision #SolarEnergy #RenewableEnergy #MobileNetV2 #AI #MachineLearning #EEE #Project
+
+GitHub: [Add your repository link here]
